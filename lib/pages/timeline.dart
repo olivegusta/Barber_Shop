@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class TimelinePage extends StatefulWidget {
   final String nome;
-  const TimelinePage({Key? key, required this.nome}) : super(key: key);
+  const TimelinePage({Key key, this.nome}) : super(key: key);
 
   @override
   _TimelinePageState createState() => _TimelinePageState();
